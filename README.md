@@ -26,7 +26,19 @@ This project is written using object-oriented programming (OOP), splitting the g
 
 ## 🚀 How to Run
 
-Since this project uses only Python's built-in libraries, you don't need to install any dependencies.
+There are two ways to play this game:
+
+### 1. For Players (Easy Method)
+You can download the ready-to-play game for Windows directly from the releases page.
+
+1.  Go to the **[Releases Page](https://github.com/Spargerx/Snake_Game/releases)**.
+2.  Under the latest release, click on `snake_game_v1.0.exe` to download it.
+3.  Double-click the downloaded file to play!
+
+> **Note:** Your computer might show a security warning since this app is from an unknown developer (me!). You may need to click "More info" and then "Run anyway" to start the game.
+
+### 2. For Developers (Running from Source)
+If you have Python installed on your computer and want to run the code yourself:
 
 1.  **Clone the repository:**
     ```sh
