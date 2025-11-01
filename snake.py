@@ -1,4 +1,5 @@
 import turtle as t
+import time
 STARTING_POSITION = [(0,0), (-20,0), (-40,0)]
 STEP_SIZE = 20
 UP = 90
@@ -13,6 +14,15 @@ class Snake:
         self.head = self.segments[0]
         self.can_turn = True
         
+        
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]
+        self.can_turn = True
+        time.sleep(1)
         
     def create_snake(self):
         for position in STARTING_POSITION:
